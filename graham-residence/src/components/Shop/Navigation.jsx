@@ -17,7 +17,7 @@ const navigation = {
 
 export default function Navigation() {
   return (
-    <div aria-label="Top" className="mx-auto max-w-7xl">
+    <div aria-label="Top" className="w-screen">
       <div className="bg-white px-6 py-24 sm:py-8 lg:px-8">
         <div className="mx-auto text-center">
           <div className="inset-x-0 bottom-0 sm:static sm:flex-1 sm:self-stretch">
@@ -26,7 +26,7 @@ export default function Navigation() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
+                  className="flex items-center text-sm font-sm text-gray-700 hover:text-gray-800"
                 >
                   {item.name}
                 </a>
