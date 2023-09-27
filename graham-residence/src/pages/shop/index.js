@@ -1,6 +1,7 @@
 import Navigation from "@/components/Shop/Navigation";
 import Header from "@/components/Shop/Header";
 import HeroImage from "@/components/Shop/HeroImage";
+import ProductsGrid from "@/components/Shop/Products/ProductsGrid";
 
 export default function Shop() {
   return (
@@ -8,6 +9,7 @@ export default function Shop() {
       <Header />
       <Navigation />
       <HeroImage />
+      <ProductsGrid />
     </div>
   );
 }

@@ -17,7 +17,7 @@ const navigation = {
 
 export default function Navigation() {
   return (
-    <div aria-label="Top" className="w-screen sm:px-0 lg:px-0">
+    <div aria-label="Top" className="w-screen sm:px-0 lg:px-0 sticky top-0 z-[2]">
       <div className="bg-white">
         <div className="mx-auto text-center">
           <div className="inset-x-0 bottom-0 sm:static sm:flex-1 sm:self-stretch ">
