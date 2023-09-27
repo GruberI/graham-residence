@@ -25,13 +25,13 @@ export default function Navigation() {
   return (
     <div className="bg-white">
       <header className="relative bg-white">
-        <nav aria-label="Top" className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <nav aria-label="Top" className="w-screen sm:px-1 lg:px-1">
           <div className="border-b border-gray-200 px-4 pb-14 sm:px-0 sm:pb-0">
             <div className="flex h-16 items-center justify-between">
               {/* Company Name */}
               <div className="flex flex-1">
                 <a href="#">
-                  <p>THE GRAHAM RESIDENCE</p>
+                  <p className="text-medium pl-2 sm:text-1xl">THE GRAHAM RESIDENCE</p>
                 </a>
               </div>
 
@@ -42,7 +42,7 @@ export default function Navigation() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
+                      className="flex items-center text-medium font-medium text-gray-700 hover:text-gray-800 sm:text-1xl"
                     >
                       {item.name}
                     </a>
