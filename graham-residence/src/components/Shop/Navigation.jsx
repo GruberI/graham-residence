@@ -2,15 +2,15 @@ const navigation = {
   categories: [
     {
       name: "Artworks",
-      href: "/property",
+      href: "#products-grid",
     },
     {
       name: "Home Goods",
-      href: "#",
+      href: "#home-product-grid",
     },
     {
       name: "Journal",
-      href: "/about",
+      href: "#about",
     },
   ],
 };

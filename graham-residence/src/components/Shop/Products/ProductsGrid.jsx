@@ -85,6 +85,9 @@ export default function ProductsGrid() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto text-left pb-6">
+        <h2 className="text-1xl text-gray-900 border-b pb-2" id="products-grid">Featured Artist Thai Minhard</h2>
+        </div>
         <h2 id="products-heading" className="sr-only">
           Products
         </h2>
