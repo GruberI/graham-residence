@@ -2,11 +2,11 @@ const navigation = {
   categories: [
     {
       name: "Artworks",
-      href: "#products-grid",
+      href: "#artwork",
     },
     {
       name: "Home Goods",
-      href: "#home-product-grid",
+      href: "#homegoods",
     },
     {
       name: "Journal",

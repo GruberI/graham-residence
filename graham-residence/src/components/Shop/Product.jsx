@@ -1,17 +1,17 @@
 import { useState } from "react";
 
-export default function Product({ product }) {
+export default function ArtSingle({ product }) {
   const [hover, setHover] = useState(false);
 
   return (
     <a key={product.id} href={product.href} className="group">
-      <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg sm:aspect-h-3 sm:aspect-w-2">
+      <div className="aspect-h-2 aspect-w-1 w-full overflow-hidden sm:aspect-h-2 sm:aspect-w-2">
         <img
           src={!hover ? product.imageSrc : product.hoverImageSrc}
           alt={product.imageAlt}
           className="h-full w-full object-cover object-center"
           onMouseEnter={() => {
-            setHover(true);
+            setTimeout(() => setHover(true), 500);
           }}
           onMouseLeave={() => {
             setHover(false);

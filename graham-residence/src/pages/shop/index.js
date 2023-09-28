@@ -1,7 +1,9 @@
 import Navigation from "@/components/Shop/Navigation";
 import Header from "@/components/Shop/Header";
 import HeroImage from "@/components/Shop/HeroImage";
-import ProductsGrid from "@/components/Shop/Products/ProductsGrid";
+import Quote from "@/components/Shop/Quote";
+import ArtSection from "@/components/Shop/ArtSection";
+import GoodsSection from "@/components/Shop/GoodsSection";
 
 export default function Shop() {
   return (
@@ -9,7 +11,9 @@ export default function Shop() {
       <Header />
       <Navigation />
       <HeroImage />
-      <ProductsGrid />
+      <ArtSection />
+      <Quote />
+      <GoodsSection />
     </div>
   );
 }
