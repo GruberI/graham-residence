@@ -10,9 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   poppins: ['Poppins', ...defaultTheme.fontFamily.poppins]
-      // }
+      // aspectRatio: {
+      //   '3/4': '3 / 4',
+      // },
     },
   },
   plugins: [
