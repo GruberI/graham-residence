@@ -86,7 +86,7 @@ export default function ArtSection() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto text-left pb-6" id="homegoods">
+        <div className="mx-auto text-left pb-6 scroll-smooth" id="homegoods">
           <h2
             className="text-1xl text-gray-900 border-b pb-2"
             id="products-grid"
