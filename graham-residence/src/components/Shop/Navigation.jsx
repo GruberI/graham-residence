@@ -27,6 +27,7 @@ export default function Navigation() {
                   key={item.name}
                   href={item.href}
                   className="flex items-center text-sm font-sm text-gray-700 hover:text-gray-800"
+                  style={{scrollBehavior: 'smooth'}}
                 >
                   {item.name}
                 </a>

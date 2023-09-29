@@ -84,7 +84,7 @@ export default function ArtSection() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-1xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto text-left pb-6" id="artwork">
+        <div className="mx-auto text-left pb-6 scroll-smooth" id="artwork">
           <h2 className="text-1xl text-gray-900 border-b pb-2">
             Featured Artist Thai Minhard
           </h2>
