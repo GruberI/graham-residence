@@ -4,6 +4,7 @@ import HeroImage from "@/components/Shop/HeroImage";
 import Quote from "@/components/Shop/Quote";
 import ArtSection from "@/components/Shop/ArtSection";
 import GoodsSection from "@/components/Shop/GoodsSection";
+import Featured from "@/components/Shop/Featured";
 
 export default function Shop() {
   return (
@@ -14,6 +15,7 @@ export default function Shop() {
       <ArtSection />
       <Quote />
       <GoodsSection />
+      <Featured />
     </div>
   );
 }

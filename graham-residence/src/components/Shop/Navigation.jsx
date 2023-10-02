@@ -9,8 +9,8 @@ const navigation = {
       href: "#homegoods",
     },
     {
-      name: "Journal",
-      href: "#about",
+      name: "Featured",
+      href: "#featured",
     },
   ],
 };
