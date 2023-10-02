@@ -1,0 +1,7 @@
+.hover_img {
+    border: solid 2px red;
+}
+
+.hover_img:hover {
+    transition: opacity 4s linear;
+}

@@ -11,10 +11,10 @@ export default function Product({ product }) {
           alt={product.imageAlt}
           className="h-full w-full object-cover object-center lg:h-full lg:w-full"
           onMouseEnter={() => {
-            setTimeout(() => setHover(true), 500);
+            setTimeout(() => setHover(true), 300);
           }}
           onMouseLeave={() => {
-            setTimeout(() => setHover(false), 500);
+            setTimeout(() => setHover(false), 300);
           }}
         />
       </div>
