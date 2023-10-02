@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from './Product.module.css'
 
 export default function Product({ product }) {
   const [hover, setHover] = useState(false);
@@ -10,6 +11,7 @@ export default function Product({ product }) {
           src={!hover ? product.imageSrc : product.hoverImageSrc}
           alt={product.imageAlt}
           className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+          style={{imageRendering: 'high-quality'}}
           onMouseEnter={() => {
             setTimeout(() => setHover(true), 300);
           }}
