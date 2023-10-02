@@ -80,6 +80,32 @@ const homeGoods = [
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
   },
+  {
+    id: 6,
+    name: "Travel Tumbler Pink",
+    href: "#",
+    price: "$20",
+    description: "HydroFlask",
+    imageSrc:
+      "https://ipfs.filebase.io/ipfs/QmRHJ4CkYCPwbdrq6c4oJPtBzFRun6RdUNxxwsERmBuCV4",
+    hoverImageSrc:
+      "https://ipfs.filebase.io/ipfs/QmaXZF8cihmbdV9WkZLT62SmgyU7x3xDJBqbPJR3TwzeBL",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 7,
+    name: "Outdoor Rattan Chairs",
+    href: "#",
+    price: "$320",
+    description: "Joss & Main",
+    imageSrc:
+      "https://ipfs.filebase.io/ipfs/QmbezAQaHAozA4fNAULYezD5CCbehKSaUMDSiq5B7R8ecC",
+    hoverImageSrc:
+      "https://ipfs.filebase.io/ipfs/QmRSgZoDwSYbWAAnoqq3QP67fJC6t4iGsYaWL6S85nJuHv",
+    imageAlt:
+      "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+  },
 ];
 
 export default function ArtSection() {

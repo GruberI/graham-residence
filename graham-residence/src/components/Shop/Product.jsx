@@ -4,12 +4,12 @@ export default function Product({ product }) {
   const [hover, setHover] = useState(false);
 
   return (
-    <a key={product.id} href={product.href} className="group">
-      <div className="aspect-w-1 aspect-h-1 overflow-hidden">
+    <a key={product.id} href={product.href} className="group relative">
+      <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 lg:aspect-none lg:h-80">
         <img
           src={!hover ? product.imageSrc : product.hoverImageSrc}
           alt={product.imageAlt}
-          className="w-full object-cover object-center"
+          className="h-full w-full object-cover object-center lg:h-full lg:w-full"
           onMouseEnter={() => {
             setTimeout(() => setHover(true), 500);
           }}
