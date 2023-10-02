@@ -6,7 +6,7 @@ export default function Featured() {
           <div>
             <div className="border-b border-gray-200 pb-10" id="featured">
               <h2 className="font-medium text-gray-500">About the artist</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-light tracking-tight text-gray-900 sm:text-4xl">
                 Thai Minnard
               </p>
             </div>
@@ -14,7 +14,7 @@ export default function Featured() {
             <div className="mt-10 space-y-10">
               <p className="mt-3 text-sm text-gray-500">
                 Some info about the artist. Things he really likes or maybe a
-                featured product. Who knows the world is our oyster.
+                featured product. Who knows the world is our oyster. He was born in a shoe with his ten other brothers and sisters. He knew by the time he was two he wanted to escape the shoe and he felt he could do this through art. 
               </p>
             </div>
           </div>
