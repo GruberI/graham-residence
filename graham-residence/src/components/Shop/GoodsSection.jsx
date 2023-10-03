@@ -1,5 +1,4 @@
 import ProductsGrid from "./ProductsGrid";
-import Product from "./Product";
 
 const homeGoods = [
   {
@@ -120,9 +119,6 @@ export default function ArtSection() {
             Home Goods
           </h2>
         </div>
-        {/* <h2 id="products-heading" className="sr-only">
-          Products
-        </h2> */}
         <ProductsGrid products={homeGoods} />
       </div>
     </div>
