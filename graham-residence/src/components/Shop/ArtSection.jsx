@@ -1,10 +1,9 @@
 import ProductsGrid from "./ProductsGrid";
 
-const artwork = [
+export const artwork = [
   {
     id: 0,
     name: "A Quiet Noise 1",
-    href: "/product",
     price: "$6000",
     description: "Kyle Steed",
     imageSrc:
@@ -13,11 +12,68 @@ const artwork = [
       "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+          <p>Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. </p>
+        `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. ",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
   {
     id: 1,
     name: "A Quiet Noise 2",
-    href: "#",
     price: "$7200",
     description: "Kyle Steed",
     imageSrc:
@@ -26,6 +82,64 @@ const artwork = [
       "https://ipfs.filebase.io/ipfs/QmYcu2AT6EikaLemSr57Kp4bRhaBKyiLd17tdzv3kbxx3G",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+            <p>Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. </p>
+          `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. ",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
   {
     id: 2,
@@ -39,11 +153,68 @@ const artwork = [
       "https://ipfs.filebase.io/ipfs/QmUMpcRBL5ZZs1JaGm9NsvQTTBE7jgK2NTfYXnXyDZ9PK9",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+            <p>Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. </p>
+          `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. ",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
   {
     id: 3,
     name: "A Quiet Noise 4",
-    href: "#",
     price: "$3280",
     description: "Kyle Steed",
     imageSrc:
@@ -52,11 +223,68 @@ const artwork = [
       "https://ipfs.filebase.io/ipfs/QmVV6AA7SwTvFBifraqujfNmbazpqMDby4kjMMhjidRtkA",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+            <p>Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. </p>
+          `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human forms. From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. ",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
   {
     id: 4,
     name: "A Quiet Noise 5",
-    href: "#",
     price: "$6200",
     description: "Kyle Steed",
     imageSrc:
@@ -65,11 +293,68 @@ const artwork = [
       "https://ipfs.filebase.io/ipfs/QmSpME4b7DWNqf3Q8b1M9By9AkR92dSgACsygBuTLAbqCs",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+            <p>Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human form.From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. </p>
+          `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "Following his graduation from high school he enlisted in the US Air Force where he was assigned to an intelligence outpost in Misawa, Japan. He relocated to Dallas, Texas in 2007. For the next five years he worked in the digital creative space and created over a dozen hand-written font libraries. This time in his life greatly informs his latest series of work which borrows font makings structural guidelines and the human form.From the intimate scale of his journals and polaroid photography to the monumental scale of his murals and paintings the thorough through line of the work lies in the exploration of the relationship between the human body and the landscapes we inhabit. ",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
   {
     id: 5,
     name: "A Quiet Noise 6",
-    href: "#",
     price: "$6400",
     description: "Kyle Steed",
     imageSrc:
@@ -77,6 +362,64 @@ const artwork = [
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmVML4rLgKKom3yiCgpbcpUAJZo6kLTu8ehQte5SqevvaS",
     imageAlt: "Paper card sitting upright in walnut card holder on desk.",
+    productPage: {
+      images: [
+        {
+          id: 1,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 2,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+        {
+          id: 3,
+          name: "Angled view",
+          src: "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
+          alt: "Angled front view with bag zipped and handles upright.",
+        },
+      ],
+      colors: [
+        {
+          name: "Washed Black",
+          bgColor: "bg-gray-700",
+          selectedColor: "ring-gray-700",
+        },
+        { name: "White", bgColor: "bg-white", selectedColor: "ring-gray-400" },
+        {
+          name: "Washed Gray",
+          bgColor: "bg-gray-500",
+          selectedColor: "ring-gray-500",
+        },
+      ],
+      description: `
+          <p>The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
+        `,
+      details: [
+        {
+          name: "DESCRIPTION",
+          items: [
+            "The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.",
+          ],
+        },
+        {
+          name: "DETAILS",
+          items: [
+            "Vertical Grain 2.5 White Oak, Fredrix 558 Raw Canvas",
+          ],
+        },
+        {
+          name: "SHIPPING & RETURNS",
+          items: [
+            "This item is fulfilled via standard ground shipping. This item is made to order, all sales are final. View our complete Return Policy in our FAQs.",
+          ],
+        },
+      ],
+    },
   },
 ];
 
@@ -166,7 +509,7 @@ export default function ArtSection() {
       <div className="mx-auto max-w-1xl px-4 py-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="mx-auto text-left pb-6 scroll-smooth" id="artwork">
           <h2 className="text-1xl text-gray-900 border-b pb-2">
-            Featured Artist Thai Minhard
+            Featured Artist Kyle Steed
           </h2>
         </div>
         <ProductsGrid products={artwork} />

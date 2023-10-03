@@ -1,7 +1,6 @@
 import ProductsGrid from "./ProductsGrid";
-import Product from "./Product";
 
-const homeGoods = [
+export const homeGoods = [
   {
     id: 0,
     name: "Travel Tumbler Pink",
@@ -9,7 +8,7 @@ const homeGoods = [
     price: "$20",
     description: "HydroFlask",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmRHJ4CkYCPwbdrq6c4oJPtBzFRun6RdUNxxwsERmBuCV4",
+      "https://fellowproducts.com/cdn/shop/products/01_Hero_MatteGrey_900x.png?v=1684254344",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmaXZF8cihmbdV9WkZLT62SmgyU7x3xDJBqbPJR3TwzeBL",
     imageAlt:
@@ -22,7 +21,7 @@ const homeGoods = [
     price: "$120",
     description: "Brooklinen",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmcSCQcNKKvMVq3cXjNAUaPMBWoS1Wy2rK1TAZ9rRDbvUm",
+      "https://www.brooklinen.com/cdn/shop/products/Throw_Pure_Wool_Latte_Silo_b1b515da-e6f1-40d6-8f90-325f724ea4c4_768x.progressive.jpg?v=1629409020",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmfEVnMSpKsjC77EYhAbStco8nPWCxNTr4qZ7rDwxh7NC5",
     imageAlt:
@@ -48,7 +47,7 @@ const homeGoods = [
     price: "$120",
     description: "Brooklinen",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmcSCQcNKKvMVq3cXjNAUaPMBWoS1Wy2rK1TAZ9rRDbvUm",
+      "https://www.brooklinen.com/cdn/shop/products/Throw_Pure_Wool_Latte_Silo_b1b515da-e6f1-40d6-8f90-325f724ea4c4_768x.progressive.jpg?v=1629409020",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmfEVnMSpKsjC77EYhAbStco8nPWCxNTr4qZ7rDwxh7NC5",
     imageAlt:
@@ -61,7 +60,7 @@ const homeGoods = [
     price: "$20",
     description: "HydroFlask",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmRHJ4CkYCPwbdrq6c4oJPtBzFRun6RdUNxxwsERmBuCV4",
+      "https://fellowproducts.com/cdn/shop/products/01_Hero_MatteGrey_900x.png?v=1684254344",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmaXZF8cihmbdV9WkZLT62SmgyU7x3xDJBqbPJR3TwzeBL",
     imageAlt:
@@ -87,7 +86,7 @@ const homeGoods = [
     price: "$20",
     description: "HydroFlask",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmRHJ4CkYCPwbdrq6c4oJPtBzFRun6RdUNxxwsERmBuCV4",
+      "https://fellowproducts.com/cdn/shop/products/01_Hero_MatteGrey_900x.png?v=1684254344",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmaXZF8cihmbdV9WkZLT62SmgyU7x3xDJBqbPJR3TwzeBL",
     imageAlt:
@@ -120,9 +119,6 @@ export default function ArtSection() {
             Home Goods
           </h2>
         </div>
-        {/* <h2 id="products-heading" className="sr-only">
-          Products
-        </h2> */}
         <ProductsGrid products={homeGoods} />
       </div>
     </div>
