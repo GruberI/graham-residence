@@ -27,7 +27,7 @@ export default function Navigation() {
       <header className="relative bg-white">
         <nav aria-label="Top" className="w-screen sm:px-1 lg:px-1">
           <div className="border-b border-gray-200 px-4 pb-14 sm:px-0 sm:pb-0">
-            <div className="flex h-16 items-center justify-between">
+            <div className="flex h-20 items-center justify-between">
               {/* Company Name */}
               <div className="flex flex-1">
                 <a href="/shop">
