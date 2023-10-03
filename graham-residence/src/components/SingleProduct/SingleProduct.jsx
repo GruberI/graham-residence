@@ -114,7 +114,7 @@ export default function Product({ product }) {
                         key={tab.name}
                         className="space-y-16 pt-10 lg:pt-12"
                       >
-                        <p className="mt-2 text-sm text-gray-700 leading-7">
+                        <p className="mt-2 text-md text-gray-900 leading-7">
                           {tab.items}
                         </p>
                       </Tab.Panel>
