@@ -1,5 +1,6 @@
 import { Fragment, Tab } from "@headlessui/react";
 import styles from "./SingleProduct.module.css";
+import Featured from "../Shop/Featured";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -75,7 +76,7 @@ export default function Product({ product }) {
               <div className="mt-20 flex justify-center ">
                 <button
                   type="submit"
-                  className="flex max-w-sm items-center justify-center border-2 border-slate-400 border-black px-8 py-3 text-base font-light  text-gray-500 hover:bg-neutral-200 hover:border-neutral-200 focus:outline-none focus:ring-2 focus:ring-stone-600 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
+                  className="flex max-w-md items-center justify-center border-2 border-neutral-200 border-black px-8 py-3 text-base font-light  text-gray-500 hover:bg-neutral-200 hover:border-neutral-200 focus:outline-none focus:ring-2 focus:ring-stone-600 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
                 >
                   ADD TO CART
                 </button>
@@ -126,6 +127,7 @@ export default function Product({ product }) {
           </div>
         </div>
       </div>
+      <Featured />
     </div>
   );
 }
