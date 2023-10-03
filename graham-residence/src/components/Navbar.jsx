@@ -31,7 +31,7 @@ export default function Navigation() {
               {/* Company Name */}
               <div className="flex flex-1">
                 <a href="/shop">
-                  <p className="text-medium pl-2 sm:text-1xl">THE GRAHAM RESIDENCE</p>
+                  <p className="text-medium sm:pl-2 lg:px-4 sm:text-1xl">THE GRAHAM RESIDENCE</p>
                 </a>
               </div>
 
