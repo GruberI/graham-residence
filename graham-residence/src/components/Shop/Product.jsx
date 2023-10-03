@@ -1,10 +1,11 @@
 import { useState } from "react";
+import Link from 'next/link'
 
 export default function Product({ product }) {
   const [hover, setHover] = useState(false);
 
   return (
-    <a key={product.id} href={product.href} className="group relative">
+    <Link key={product.id} href={`/product-${product.id}`} className="group relative">
       <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden bg-gray-200 lg:aspect-none lg:h-80">
         <img
           src={!hover ? product.imageSrc : product.hoverImageSrc}
@@ -25,6 +26,6 @@ export default function Product({ product }) {
         <p>{product.price}</p>
       </div>
       <p className="mt-1 text-sm italic text-gray-500">{product.description}</p>
-    </a>
+    </Link>
   );
 }
