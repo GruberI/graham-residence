@@ -22,7 +22,7 @@ const homeGoods = [
     price: "$120",
     description: "Brooklinen",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmQ4icwsz43YH26bNZS4TuRDN6QT2rbD737rDB68BDFTKw",
+      "https://ipfs.filebase.io/ipfs/QmcSCQcNKKvMVq3cXjNAUaPMBWoS1Wy2rK1TAZ9rRDbvUm",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmfEVnMSpKsjC77EYhAbStco8nPWCxNTr4qZ7rDwxh7NC5",
     imageAlt:
@@ -48,7 +48,7 @@ const homeGoods = [
     price: "$120",
     description: "Brooklinen",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmQ4icwsz43YH26bNZS4TuRDN6QT2rbD737rDB68BDFTKw",
+      "https://ipfs.filebase.io/ipfs/QmcSCQcNKKvMVq3cXjNAUaPMBWoS1Wy2rK1TAZ9rRDbvUm",
     hoverImageSrc:
       "https://ipfs.filebase.io/ipfs/QmfEVnMSpKsjC77EYhAbStco8nPWCxNTr4qZ7rDwxh7NC5",
     imageAlt:

@@ -8,11 +8,11 @@ const navigation = {
   categories: [
     {
       name: "The Property",
-      href: "/property",
+      href: "https://www.grahamresidence.com/",
     },
     {
       name: "The Shop",
-      href: "#",
+      href: "/shop",
     },
     {
       name: "About",
@@ -30,7 +30,7 @@ export default function Navigation() {
             <div className="flex h-16 items-center justify-between">
               {/* Company Name */}
               <div className="flex flex-1">
-                <a href="#">
+                <a href="/shop">
                   <p className="text-medium pl-2 sm:text-1xl">THE GRAHAM RESIDENCE</p>
                 </a>
               </div>

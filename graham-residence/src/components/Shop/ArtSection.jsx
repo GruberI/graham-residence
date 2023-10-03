@@ -4,7 +4,7 @@ const artwork = [
   {
     id: 0,
     name: "A Quiet Noise 1",
-    href: "#",
+    href: "/product",
     price: "$6000",
     description: "Kyle Steed",
     imageSrc:

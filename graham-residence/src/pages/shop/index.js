@@ -5,17 +5,20 @@ import Quote from "@/components/Shop/Quote";
 import ArtSection from "@/components/Shop/ArtSection";
 import GoodsSection from "@/components/Shop/GoodsSection";
 import Featured from "@/components/Shop/Featured";
+import Layout from "@/components/Layout";
 
 export default function Shop() {
   return (
-    <div className="bg-white py-1 sm:py-10 lg:py-10">
-      <Header />
-      <Navigation />
-      <HeroImage />
-      <ArtSection />
-      <Quote />
-      <GoodsSection />
-      <Featured />
-    </div>
+    <Layout>
+      <div className="bg-white py-1 sm:py-10 lg:py-10">
+        <Header />
+        <Navigation />
+        <HeroImage />
+        <ArtSection />
+        <Quote />
+        <GoodsSection />
+        <Featured />
+      </div>
+    </Layout>
   );
 }

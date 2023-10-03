@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styles from './Product.module.css'
 
 export default function Product({ product }) {
   const [hover, setHover] = useState(false);
@@ -11,13 +10,14 @@ export default function Product({ product }) {
           src={!hover ? product.imageSrc : product.hoverImageSrc}
           alt={product.imageAlt}
           className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-          style={{imageRendering: 'high-quality'}}
-          onMouseEnter={() => {
-            setTimeout(() => setHover(true), 300);
-          }}
-          onMouseLeave={() => {
-            setTimeout(() => setHover(false), 300);
-          }}
+          // onMouseEnter={() => {
+          //   setTimeout(() => setHover(true), 300);
+          // }}
+          // onMouseLeave={() => {
+          //   setTimeout(() => setHover(false), 300);
+          // }}
+          onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
         />
       </div>
       <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">

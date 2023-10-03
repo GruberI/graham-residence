@@ -1,8 +1,0 @@
-.hover_img {
-    border: solid 2px red;
-    image-rendering: crisp-edges
-}
-
-.hover_img:hover {
-    transition: opacity 4s linear;
-}
