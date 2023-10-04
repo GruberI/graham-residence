@@ -7,9 +7,9 @@ export const artwork = [
     price: "$6000",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+      "https://ipfs.filebase.io/ipfs/QmT6UGEBSpLUYGP3hHopye3Rn67JTErs6eNBufTS4p7G1k",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+      "https://ipfs.filebase.io/ipfs/QmVmbeMmM9h244UCofAkThHxYzWUpTbYJRi5y6r2y2bpZA",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
     productPage: {
@@ -23,7 +23,7 @@ export const artwork = [
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/QmV3eRyrqjm3Btet75umR5d9sP9CSeoJ8GLkq3ouVe6pym",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
@@ -77,9 +77,9 @@ export const artwork = [
     price: "$7200",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmTbAeVrcSrxttFnv5J2LHnAiYKprgzc94vgtcn7gHjXHy",
+      "https://ipfs.filebase.io/ipfs/QmSxxSjdoPTRf96yaqDrVbRdQWMUxfAdsRcVvTRmgFF9rx",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/QmYcu2AT6EikaLemSr57Kp4bRhaBKyiLd17tdzv3kbxx3G",
+      "https://ipfs.filebase.io/ipfs/QmRHCRtbok8dGmXzDaiPSKBSBeRo6RqCokacvbyv1FbdnV",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
     productPage: {
@@ -87,13 +87,13 @@ export const artwork = [
         {
           id: 1,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          src: "https://ipfs.filebase.io/ipfs/QmTbAeVrcSrxttFnv5J2LHnAiYKprgzc94vgtcn7gHjXHy",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/QmNgNgovNe1FAYgWzfm6u8FDyrx57SUdfSEKSqLNmFwVLF",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
@@ -148,9 +148,9 @@ export const artwork = [
     price: "$3200",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmUMyJ18KZBY7SyKetPetGxpjM8RgjN58dkA9YgYPWrLLe",
+      "https://ipfs.filebase.io/ipfs/QmYbaptejRMZJhXkSx8upkzopzJgDbF3Ee2mh5PfdR6Z3L",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/QmUMpcRBL5ZZs1JaGm9NsvQTTBE7jgK2NTfYXnXyDZ9PK9",
+      "https://ipfs.filebase.io/ipfs/QmNgNgovNe1FAYgWzfm6u8FDyrx57SUdfSEKSqLNmFwVLF",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
     productPage: {
@@ -158,13 +158,13 @@ export const artwork = [
         {
           id: 1,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          src: "https://ipfs.filebase.io/ipfs/QmUMyJ18KZBY7SyKetPetGxpjM8RgjN58dkA9YgYPWrLLe",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/QmNgNgovNe1FAYgWzfm6u8FDyrx57SUdfSEKSqLNmFwVLF",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
@@ -218,9 +218,9 @@ export const artwork = [
     price: "$3280",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmSLbxBbhQo5gpMd1zrfrXj4Bm8peKVcbY4N8VNUTmGK6A",
+      "https://ipfs.filebase.io/ipfs/QmNPFgcf9G9PcnR3Xk34tXgqbyqC6vLsGZ5cjPjWAUrT57",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/QmVV6AA7SwTvFBifraqujfNmbazpqMDby4kjMMhjidRtkA",
+      "https://ipfs.filebase.io/ipfs/Qmf9yJtWgMMxaG3TeXf44t6SighGS3dT7G2ZvoJsAnoKX3",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
     productPage: {
@@ -228,13 +228,13 @@ export const artwork = [
         {
           id: 1,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          src: "https://ipfs.filebase.io/ipfs/QmSLbxBbhQo5gpMd1zrfrXj4Bm8peKVcbY4N8VNUTmGK6A",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/Qmf9yJtWgMMxaG3TeXf44t6SighGS3dT7G2ZvoJsAnoKX3",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
@@ -288,9 +288,9 @@ export const artwork = [
     price: "$6200",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmWARsmfMwSUUfTJmjvoxYmu4BPLvVNR8Mhso9e31tHiqG",
+      "https://ipfs.filebase.io/ipfs/QmSmey618s7rac2sMQk1x8tfkkFXzSAXs3W2JmY4etALzk",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/QmSpME4b7DWNqf3Q8b1M9By9AkR92dSgACsygBuTLAbqCs",
+      "https://ipfs.filebase.io/ipfs/QmXX63MvEnPEvMXsqqRpEdus2NSJrwDCLRrn2xWkW6LtgF",
     imageAlt:
       "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
     productPage: {
@@ -298,13 +298,13 @@ export const artwork = [
         {
           id: 1,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          src: "https://ipfs.filebase.io/ipfs/QmWARsmfMwSUUfTJmjvoxYmu4BPLvVNR8Mhso9e31tHiqG",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/QmXX63MvEnPEvMXsqqRpEdus2NSJrwDCLRrn2xWkW6LtgF",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
@@ -358,22 +358,22 @@ export const artwork = [
     price: "$6400",
     description: "Kyle Steed",
     imageSrc:
-      "https://ipfs.filebase.io/ipfs/QmQZvVJy6zCkwmJcdz9XRejpHx9xwkrAdzHPYcSkzsa3JQ",
+      "https://ipfs.filebase.io/ipfs/QmVV5hFnNu4XFNBcned2h5nL9XdiiSsiDMK22jeuHVyQHa",
     hoverImageSrc:
-      "https://ipfs.filebase.io/ipfs/QmVML4rLgKKom3yiCgpbcpUAJZo6kLTu8ehQte5SqevvaS",
+      "https://ipfs.filebase.io/ipfs/QmUqxoJE8ZB36zzaPDaJVeDG8GxSCDryYkTphk1L2pJsvB",
     imageAlt: "Paper card sitting upright in walnut card holder on desk.",
     productPage: {
       images: [
         {
           id: 1,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/QmZzKzkY6vyn9K8J6UcCyfdeNnYsFSMZPjY13We4EDvPpf",
+          src: "https://ipfs.filebase.io/ipfs/QmQZvVJy6zCkwmJcdz9XRejpHx9xwkrAdzHPYcSkzsa3JQ",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
           id: 2,
           name: "Angled view",
-          src: "https://ipfs.filebase.io/ipfs/Qmf5Z8FyZ11TZ3r93sBpsxdcjr5F6G7qygxw82SYhRjg52",
+          src: "https://ipfs.filebase.io/ipfs/QmUqxoJE8ZB36zzaPDaJVeDG8GxSCDryYkTphk1L2pJsvB",
           alt: "Angled front view with bag zipped and handles upright.",
         },
         {
