@@ -3,6 +3,9 @@ import {
   MagnifyingGlassIcon,
   ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
+import { Suspense } from "react";
+import Cart from "./Cart/index.tsx";
+import OpenCart from "./Cart/open-cart";
 
 const navigation = {
   categories: [
@@ -31,7 +34,9 @@ export default function Navigation() {
               {/* Company Name */}
               <div className="flex flex-1">
                 <a href="/shop">
-                  <p className="text-medium sm:pl-2 lg:px-4 sm:text-1xl">THE GRAHAM RESIDENCE</p>
+                  <p className="text-medium sm:pl-2 lg:px-4 sm:text-1xl">
+                    THE GRAHAM RESIDENCE
+                  </p>
                 </a>
               </div>
 
@@ -58,7 +63,7 @@ export default function Navigation() {
                 </a>
 
                 {/* Cart */}
-                <div className="ml-4 flow-root lg:ml-8">
+                {/* <div className="ml-4 flow-root lg:ml-8">
                   <a href="#" className="group -m-2 flex items-center p-2">
                     <ShoppingBagIcon
                       className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
@@ -69,6 +74,11 @@ export default function Navigation() {
                     </span>
                     <span className="sr-only">items in cart, view bag</span>
                   </a>
+                </div> */}
+                <div className="flex justify-end md:w-1/3">
+                  <Suspense fallback={<OpenCart />}>
+                    <Cart />
+                  </Suspense>
                 </div>
               </div>
             </div>
