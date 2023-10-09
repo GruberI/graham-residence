@@ -116,7 +116,7 @@ export default function ArtSection() {
             className="text-1xl text-gray-900 border-b pb-2"
             id="products-grid"
           >
-            Home Goods
+            Featured Products
           </h2>
         </div>
         <ProductsGrid products={homeGoods} />
